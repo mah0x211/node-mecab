@@ -1,0 +1,32 @@
+{
+    "name" : "MeCab",
+    "keywords": [
+        "MeCab",
+		"Morphological Analyzer"
+    ],
+    "description": "MeCab C API bindings for node.js",
+    "homepage": "http://github.com/mah0x211/node-mecab",
+    "version" : "0.0.2",
+    "main" : "./MeCab",
+    "scripts" : {
+        "install" : "./install.sh" 
+    },
+    "engines" : {
+        "node" : ">= 0.4.7"
+    },
+    "maintainers": [
+        {
+            "name": "Masatoshi Teruya",
+            "email": "mah0x211@gmail",
+            "web": "http://kontext.jp/" 
+        } 
+    ],
+    "repository": {
+        "type" : "git",
+        "url": "http://github.com/mah0x211/node-mecab.git" 
+    },
+    "bugs" : {
+        "mail" : "" ,
+        "web" : "http://github.com/mah0x211/node-mecab/issues" 
+    }
+}
