@@ -58,6 +58,6 @@ def build(bld):
 	obj.lib = ['mecab']
 
 def shutdown(ctx):
-	if os.path.exists('build/default/MeCab.node') and not os.path.exists('MeCab.node'):
+	if os.fs.exists('build/default/MeCab.node') and not os.fs.exists('MeCab.node'):
 		os.symlink('build/default/MeCab.node', 'MeCab.node' )
 	pass
